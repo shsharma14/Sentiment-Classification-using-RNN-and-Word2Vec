@@ -1,8 +1,8 @@
 # Sentiment-Classification-using-RNN-and-Word2Vec
 
-In any language, tokens may be deeply interrelated even when they are far apart in a sentence. For example, in a sentence like "The young
-woman went to the movies with her friends", the subject “woman” immediately precedes its main verb “went.” For sentence like these,
-traditional RNNs and CNNs will have no problem in learning the relationship.
+In any language, tokens may be deeply interrelated even when they are far apart in a sentence. 
+For example, in a sentence like "The young woman went to the movies with her friends", the subject “woman” immediately precedes its main verb “went.” For sentence like these, traditional RNNs and CNNs will have no problem in learning the relationship.
+
 But for a sentence like "The young woman, having found a free ticket on the ground, went to the movies", the noun and verb are no longer one
 time step apart in the sequence. Traditional RNNs have one major drawback: a token’s effect is almost completely lost by the time two tokens
 have passed. So, it will have difficulty picking up the relationship between "woman" and "went" and it will overemphasize on the relationship
